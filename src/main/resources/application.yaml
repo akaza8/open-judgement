@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: OpenJudgementApplication
+  datasource:
+    url: jdbc:postgresql://localhost:5432/openjudgement
+    username: postgres
+    password: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+
+  flyway:
+    enabled: true
+
+  debug: true
+
+logging:
+  level:
+    org.springframework: DEBUG
+    org.hibernate: DEBUG
