@@ -30,7 +30,11 @@ Public debate, voting, and evidence will be introduced in later versions.
 - Frontend: Next.js, Tailwind CSS
 - Infra: Docker Compose
 - License: Apache 2.0
+- Docker
 
+### Start PostgreSQL
+```bash
+docker compose up -d
 ---
 
 ## Contributing

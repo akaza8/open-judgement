@@ -21,6 +21,13 @@ public class Case {
     protected Case() {
     }
 
+    public Case(String title) {
+        this.title = title;
+        this.state = CaseState.DRAFT;
+        this.createdAt = Instant.now();
+        this.updatedAt = Instant.now();
+    }
+
     public void transitionTo(CaseState target){
         if (!state.canTransitionTo(target)) {
             throw new IllegalStateException(
