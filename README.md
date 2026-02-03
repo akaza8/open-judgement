@@ -15,10 +15,10 @@ to enable high-engagement public judgment without identity leakage.
 🚧 **v0.1 – Foundation Phase**
 
 Current focus:
-- Case lifecycle
-- Anonymous role mapping
-- Partner invitations
-- Opening statements
+- [x] Case lifecycle
+- [ ] Anonymous role mapping
+- [x] Partner invitations
+- [x] Opening statements
 
 Public debate, voting, and evidence will be introduced in later versions.
 
