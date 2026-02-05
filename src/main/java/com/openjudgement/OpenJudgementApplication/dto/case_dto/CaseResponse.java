@@ -1,7 +1,7 @@
-package com.openjudgement.OpenJudgementApplication.casefile.api;
+package com.openjudgement.OpenJudgementApplication.dto.case_dto;
 
-import com.openjudgement.OpenJudgementApplication.casefile.Case;
-import com.openjudgement.OpenJudgementApplication.casefile.CaseState;
+import com.openjudgement.OpenJudgementApplication.entity.Case;
+import com.openjudgement.OpenJudgementApplication.entity.CaseState;
 
 import java.time.Instant;
 import java.util.UUID;

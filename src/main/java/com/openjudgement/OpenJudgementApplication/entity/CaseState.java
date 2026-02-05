@@ -1,4 +1,4 @@
-package com.openjudgement.OpenJudgementApplication.casefile;
+package com.openjudgement.OpenJudgementApplication.entity;
 
 public enum CaseState {
     DRAFT,

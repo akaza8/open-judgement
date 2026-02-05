@@ -15,9 +15,9 @@ spring:
   flyway:
     enabled: true
 
-  debug: true
+  debug: false
 
-logging:
-  level:
-    org.springframework: DEBUG
-    org.hibernate: DEBUG
+#logging:
+#  level:
+#    org.springframework: DEBUG
+#    org.hibernate: DEBUG

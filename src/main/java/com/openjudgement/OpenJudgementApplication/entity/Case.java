@@ -1,9 +1,6 @@
-package com.openjudgement.OpenJudgementApplication.casefile;
+package com.openjudgement.OpenJudgementApplication.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.EnumType;
-import jakarta.persistence.Enumerated;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 
 import java.time.Instant;
 import java.util.UUID;
@@ -11,6 +8,8 @@ import java.util.UUID;
 @Entity
 @Table(name = "cases")
 public class Case {
+    @Id
+    @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
     private String title;
     @Enumerated(EnumType.STRING)

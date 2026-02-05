@@ -1,4 +1,4 @@
-package com.openjudgement.OpenJudgementApplication.casefile.api;
+package com.openjudgement.OpenJudgementApplication.dto.case_dto;
 
 import jakarta.validation.constraints.NotBlank;
 

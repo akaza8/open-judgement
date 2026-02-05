@@ -1,5 +1,6 @@
-package com.openjudgement.OpenJudgementApplication.casefile;
+package com.openjudgement.OpenJudgementApplication.repository;
 
+import com.openjudgement.OpenJudgementApplication.entity.Case;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,7 +1,9 @@
-package com.openjudgement.OpenJudgementApplication.casefile.api;
+package com.openjudgement.OpenJudgementApplication.controller;
 
-import com.openjudgement.OpenJudgementApplication.casefile.Case;
-import com.openjudgement.OpenJudgementApplication.casefile.CaseService;
+import com.openjudgement.OpenJudgementApplication.entity.Case;
+import com.openjudgement.OpenJudgementApplication.service.CaseService;
+import com.openjudgement.OpenJudgementApplication.dto.case_dto.CaseResponse;
+import com.openjudgement.OpenJudgementApplication.dto.case_dto.CreateCaseRequest;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
